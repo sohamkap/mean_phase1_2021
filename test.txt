@@ -1,4 +1,0 @@
-Welcome to GIT simple example
-
-making changes
-changed
