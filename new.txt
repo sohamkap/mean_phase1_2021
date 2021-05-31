@@ -1,3 +1,0 @@
-id,name,salary
-2,Ravi,10000
-3,soham,100000
