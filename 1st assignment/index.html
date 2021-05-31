@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="blog.js"></script>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active"  href="index.html">Add Blog</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutus.html">About</a>
+    </div>
+    <div id="details">
+        Title : &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="title" id="title" placeholder="Enter Title" required="true"/> <br><br>
+        Articles: <textarea name="article" id="articles" cols="30" rows="10" placeholder="Enter Article description" required="true"></textarea> <br>
+       <br> Image: &nbsp;&nbsp; <input type="text" name="image" id="image" placeholder="Enter Image url"><br>
+       <br> <button id="button" onclick="addBlog()">Add Blog</button>
+    </div>
+    <div id="selector">
+        
+    </div>
+</body>
+</html>
